@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+{$cover}
+{$bookinfo('bookname')}数组等
+{$bookmessage}
+{$bookmessagepage}
+
+
+<form action="Home/Book/Bookdetail/addbookmessage" method="post">
+	<input type='text' name='bookmessage' value='这里输入留言' />
+	<input type='submit' value='提交' />
+</form>
+
+提交后会先去是否登录的中间件检查 再去checkmessage检查
+</body>
+</html>

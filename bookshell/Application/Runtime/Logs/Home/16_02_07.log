@@ -1,0 +1,20 @@
+[ 2016-02-07T13:10:01+08:00 ] ::1 /bookshell/index.php/Home/Book/booksell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.569814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:2.178633s ]
+INFO: [ app_begin ] --END-- [ RunTime:2.178707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.062734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.062794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.389077s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.389165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.101642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.101685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.063426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.063485s ]
+
